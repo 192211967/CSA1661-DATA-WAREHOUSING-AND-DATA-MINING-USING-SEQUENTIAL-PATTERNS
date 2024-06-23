@@ -1,0 +1,6 @@
+names<-c("siri","mahi","chiru")
+age<-c(23,27,25)
+marks<-c(87,79,25)
+df<-data.frame(names,age,marks)
+mid range(df $age)
+write.csv(df,"datafr.csv")

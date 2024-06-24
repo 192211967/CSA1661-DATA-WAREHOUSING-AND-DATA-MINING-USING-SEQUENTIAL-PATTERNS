@@ -1,0 +1,10 @@
+diabetest1 <- read.csv("C:/Users/avina/OneDrive/Documents/DWDM/M.csv")
+A <- diabetest1$Age
+Mean <- mean(A)
+Maximum <- max(A)
+Minimum <- min(A)
+print(paste("Mean:", Mean))
+print(paste("Minimum:", Minimum))
+print(paste("Maximum:", Maximum))
+MinMax <- (A - Minimum) / (Maximum - Minimum)
+print(MinMax)

@@ -1,0 +1,14 @@
+@relation people
+
+@attribute age numeric
+@attribute height numeric
+@attribute class {tall, short}
+
+@data
+25, 175, tall
+30, 160, short
+22, 180, tall
+28, 155, short
+29,150,short
+44,160,short
+55,170,tall

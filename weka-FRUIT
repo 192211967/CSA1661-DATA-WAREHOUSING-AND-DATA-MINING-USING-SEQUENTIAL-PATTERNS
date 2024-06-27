@@ -1,0 +1,10 @@
+@relation fruit
+@attribute color {red, green, yellow, orange}
+@attribute weight numeric
+@attribute shape {round, oval}
+@attribute class {apple, orange}
+@data
+red, 150, round, apple
+orange, 160, round, orange
+green, 130, round, apple
+yellow, 140, oval, orange

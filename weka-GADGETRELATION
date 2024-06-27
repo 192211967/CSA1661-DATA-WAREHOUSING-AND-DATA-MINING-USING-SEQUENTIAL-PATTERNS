@@ -1,0 +1,9 @@
+@relation GADGETRELATION
+@attribute decision{Expand,Dont_Expand}
+@attribute economy{Good,Bad}
+@attribute revenue real
+@data
+Expand	Good	7
+Expand	Bad	3
+Dont_Expand	Good	4
+Dont_Expand	Bad	1.5
